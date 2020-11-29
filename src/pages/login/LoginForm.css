@@ -1,0 +1,34 @@
+/*=============================================================================
+loginForm CSS format code
+Written By: Keegan Kerns
+Last Updated: Nov 27 2020
+Purpose: Adds design to the Login form
+=============================================================================*/
+
+.loginForm{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F8F8FF;
+  border: solid;
+  border-color: #1189de;
+}
+
+.submitButton{
+  padding-top: 16px;
+
+}
+.btn{
+  width: 100%;
+  min-width: 280px;
+  color: #565656;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: solid 2px #1189de;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}

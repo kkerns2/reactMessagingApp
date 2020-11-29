@@ -1,0 +1,31 @@
+/*=============================================================================
+messageFeed CSS format code
+Written By: Keegan Kerns
+Last Updated: Nov 27 2020
+Purpose: Adds design to the homePage.js, specifically the MessageFeed
+==============================================================================*/
+
+.MessageFeed{
+  display: flex;
+  width: 800px;
+  height: 50vh;
+  background-color:  #D3D3D3;
+  justify-content:  space-between;
+  flex-direction: column;
+  font-size: 28px;
+  color: #000000;
+  overflow-x: hidden;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.sendMsg form{
+  display: flex;
+  width: 100%;
+
+}
+
+.sendMsg input{
+  width:900px;
+  float: left;
+}

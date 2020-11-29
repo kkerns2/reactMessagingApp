@@ -1,0 +1,21 @@
+/*=============================================================================
+userList CSS format code
+Written By: Keegan Kerns
+Last Updated: Nov 27 2020
+Purpose: Adds design to Contacts List in the HomePage
+==============================================================================*/
+
+li{
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+li:last-child{
+  border: none;
+}
+
+p{
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}

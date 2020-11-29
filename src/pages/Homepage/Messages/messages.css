@@ -1,0 +1,63 @@
+/*=============================================================================
+Messages CSS format code
+Written By: Keegan Kerns
+Last Updated: Nov 27 2020
+Purpose: Adds design to the homePage.js, specifically the messages object
+==============================================================================*/
+.messages-list{
+  padding: 20px 0;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+  flex-grow: 1;
+  overflow: auto;
+}
+.Messages-message{
+  display: flex;
+  margin-top: 10px;
+}
+
+.Messages-message.currentMember{
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.Message-content{
+  display: inline-block;
+}
+
+.currentMember > .Message-content{
+  align-items: flex-end;
+}
+
+.Messages-message > .avatar{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px -10px;
+}
+
+.Message-content > .username {
+  display: block;
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+.Message-content > .text {
+  font-size: 14px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0;
+  border-radius: 12px;
+  background-color: cornflowerblue;
+  color: white;
+  display: inline-block;
+}
+
+.currentMember > .Message-content .text{
+  background-color: orangered;
+}
