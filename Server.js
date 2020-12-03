@@ -35,7 +35,7 @@ const io = socketio(server);
 const db = mysql.createConnection({
   host:'localhost',
   user:'admin',
-  password:'@dm!nsql4331C',
+  password:'',
   database:'users'
 });
 
